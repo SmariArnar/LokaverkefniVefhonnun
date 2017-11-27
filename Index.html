@@ -1,1 +1,103 @@
 
+<!DOCTYPE html>
+<html lang="is">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"> 
+    <title>Verkefni 4.1 bakgrunnar</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+    *  { 
+       margin: 0;
+       padding: 0;
+    } 
+      #map { 
+      height: 500px;
+      width: 100%;
+      } 
+    </style>
+  </head>
+  <body>
+    <header class="container II">
+      <div><img src="https://nam.inna.is/api/Attachment/DownloadAttachment/904257/9?student=1" styles="bg" class="mynd">
+         <h1>
+          Verkefni 5
+         </h1>
+       </div>
+      
+
+      <div class="top">
+        <h3 class="verkefni">VEFÞ1VG05</h3>
+        <div class="nav">
+          <p class="box">VEFÞ1VG05AU | </p> 
+          <a class="box" href="um.html">Um mig</a>
+          <a class="box" href="ahugamal.html">Áhugamál</a>
+          <a class="box" href="../">Verkefni</a>
+
+        </div>
+      </div>
+    </header>
+    <!-- Main -->
+    <section class="midja">
+    <section>
+      <div class="container">
+        <h1 style="color: red">Texti</h1>
+        <p><strong>Aliquam in ornare sem. Vivamus lobortis ultrices mauris pulvinar pellentesque. Nulla bibendum nunc cursus risus posuere vestibulum. Vivamus lacinia quam sit amet mi viverra bibendum. Proin id nibh eu lorem fringilla lobortis sit amet ac magna. Proin laoreet augue vel porta lacinia. Aliquam quis nisi id est finibus venenatis non non nibh. Quisque varius porttitor ornare. Curabitur quis erat consequat orci consectetur elementum.,<em> Gradient backrounds</em> en þar sem hann hefur ekki uppfært vefinn notar hvorki flexbox eða grid lausinr er ekki hægt að fara eftir hans uppsetningu </p><p>Aliquam in ornare sem. Vivamus lobortis ultrices mauris pulvinar pellentesque. Nulla bibendum nunc cursus risus posuere vestibulum. Vivamus lacinia quam sit amet mi viverra bibendum. Proin id nibh eu lorem fringilla lobortis sit amet ac magna. Proin laoreet augue vel porta lacinia. Aliquam quis nisi id est finibus venenatis non non nibh. Quisque varius porttitor ornare. Curabitur quis erat consequat orci consectetur elementum.</p>
+        <p>Aliquam in ornare sem. Vivamus lobortis ultrices mauris pulvinar pellentesque. Nulla bibendum nunc cursus risus posuere vestibulum. Vivamus lacinia quam sit amet mi viverra bibendum. Proin id nibh eu lorem fringilla lobortis sit amet ac magna. Proin laoreet augue vel porta lacinia. Aliquam quis nisi id est finibus venenatis non non nibh. Quisque varius porttitor ornare. Curabitur quis erat consequat orci consectetur elementum.</p>
+        <p>Aliquam in ornare sem. Vivamus lobortis ultrices mauris pulvinar pellentesque. Nulla bibendum nunc cursus risus posuere vestibulum. Vivamus lacinia quam sit amet mi viverra bibendum. Proin id nibh eu lorem fringilla lobortis sit amet ac magna. Proin laoreet augue vel porta lacinia. Aliquam quis nisi id est finibus venenatis non non nibh. Quisque varius porttitor ornare. Curabitur quis erat consequat orci consectetur elementum.</p>
+        <p>Aliquam in ornare sem. Vivamus lobortis ultrices mauris pulvinar pellentesque. Nulla bibendum nunc cursus risus posuere vestibulum. Vivamus lacinia quam sit amet mi viverra bibendum. Proin id nibh eu lorem fringilla lobortis sit amet ac magna. Proin laoreet augue vel porta lacinia. Aliquam quis nisi id est finibus venenatis non non nibh. Quisque varius porttitor ornare. Curabitur quis erat consequat orci consectetur elementum.</p>
+    </section>
+    <section class="vidd">
+    <h1 class="text">Myndir</h1>
+      <center>
+      <img src="squt.jpg" >
+      <img src="yung.png"> 
+      <img src="bok.jpg">
+      <img src="skak.jpg">
+      </center>
+    </section>
+ <br>
+    <section class="container">
+      <div>    
+        <h1 class="tvo">Youtube myndband</h1>
+        <iframe width="420" height="315"
+src="https://www.youtube.com/embed/XGSy3_Czz8k">
+</iframe>
+      </div>
+    </section>
+    <br>
+    <section class="container">
+      <div>
+      <h1 class="tvo">Dæmis Hljóðskrá</h1>
+<audio controls>
+  <source src="SampleAudio_0.4.mp3" type="audio/mpeg">
+</audio>
+      </div>
+    </section>
+    <section class="container">
+     <h1 class="text">Google maps</h1>
+      <div id="map"></div>
+
+      <script>
+        function initMap()  { 
+            var location =  {lat: -25.363, lng: 131.044};
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: location
+            }); 
+            var marker = new google.maps.marker({
+                position: location,
+                map: map
+            })
+        } 
+       
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCEda-BiESVcc3iU95HKsBiKCD1euG8IDY&callback=initMap"></script>
+    </section>
+    <footer class="botn">
+      <h1>Smári Arnarson</h1>
+      <p>2017, VEFÞ1G05AU</p>
+    </footer>
+  </body>
+</html>
