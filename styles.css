@@ -1,2 +1,114 @@
 
 Beinagrind
+.container {
+  max-width: 65em;
+  margin: 0 auto;
+}
+header h1 {
+  padding: 35px;
+  margin: 20px;
+  vertical-align: baseline;
+  background: transparent;
+  line-height: 1.46em;
+  font: normal normal normal 40px/1.46em brandon-grot-w01-light,sans-serif;
+}
+
+.botn {
+  background-color: #0277bd;;
+}
+.nav {
+  display: grid;
+  text-align: right;
+  list-style-type: none;
+  padding: 26px;
+  margin: 25px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('fjall.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.III {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.II {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hvitur {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    opacity: 0.5;
+}
+span {
+    margin-left: 35px;
+}
+.verkefni {
+  list-style-type: none;
+  padding: 20px;
+  margin: 27px;
+  text-align: right;
+}
+.nav2 {
+  display: flex;
+  flex-flow: row;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+}
+.nav2 a {
+  display: block;
+  padding: .4em 1em;
+  background-color: white;
+  color: orange;
+} 
+
+a {
+    display: block;
+    padding: 8px;
+    color: black; 
+  }
+a:hover {
+    color: blue;
+}
+.box {
+  margin: 2px;
+  padding: 1px;
+}
+
+header { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 15px;
+}
+
+.text  { 
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 200%;
+}
+.mynd { 
+  width: 100px;
+  height: 100px;
+}
+.tvo{ 
+   color: red;
+   font-size: 160%;
+}
+.botn{
+  color: red;
+  text-align: center;
+  padding: 50px; 
+}
