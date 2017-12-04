@@ -1,36 +1,46 @@
-
-Beinagrind
-.container {
-  max-width: 65em;
+body{
+  font-family: Arial, helvetica, sans-serif;
+  background-image: url("background.jpg");
+  background-size: 100%;
+  line-height: 1.5em;
   margin: 0 auto;
 }
-header h1 {
-  padding: 35px;
-  margin: 20px;
-  vertical-align: baseline;
-  background: transparent;
-  line-height: 1.46em;
-  font: normal normal normal 40px/1.46em brandon-grot-w01-light,sans-serif;
+.container {
+  padding: 2em;
+  max-width: 60em;
+  margin: 0 auto;
+  background-color: white;
 }
-
-.botn {
-  background-color: #0277bd;;
+header{
+  background-color: #666666;
+  padding: 1em;
+  box-shadow: 0px 7px 20px black;
+  position: fixed;
+  width: 100%;
 }
-.nav {
+footer{
+  box-shadow: 0px -7px 20px black;
+  background-color: #666666;
+  padding: 1em;
+  height: 5em;
   display: grid;
-  text-align: right;
-  list-style-type: none;
-  padding: 26px;
-  margin: 25px;
+  align-items: center;
 }
-
-body{
+.headfootcont{
+  max-width: 60em;
+  margin: 0 auto;
+}
+.barrier{
+  height: 5em;
+}
+.nav-links{
+  padding: 1em 0em 1em 0em;
   margin: 0;
-  padding: 0;
-  background-image: url('fjall.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
+  text-align: right;
+  font-family: 'Cabin', sans-serif;
+}
+h1{
+  font-family: 'Cabin', sans-serif;
 }
 .III {
   display: grid;
@@ -40,80 +50,24 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.hvitur {
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    margin: 0;
-    opacity: 0.5;
-}
-span {
-    margin-left: 35px;
-}
-.verkefni {
-  list-style-type: none;
-  padding: 20px;
-  margin: 27px;
-  text-align: right;
-}
-.nav2 {
-  display: flex;
-  flex-flow: row;
-  width: 80%;
-  margin: 0 auto;
-  background-color: white;
-}
-.nav2 a {
-  display: block;
-  padding: .4em 1em;
-  background-color: white;
-  color: orange;
-} 
-
 a {
-    display: block;
-    padding: 8px;
-    color: black; 
-  }
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white; 
+}
 a:hover {
-    color: blue;
+  text-decoration: none;
+  color: #969696;
 }
-.box {
-  margin: 2px;
-  padding: 1px;
-}
-
-header { 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding: 15px;
-}
-
-.text  { 
-    color: red;
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-    font-size: 200%;
-}
-.mynd { 
-  width: 100px;
-  height: 100px;
-}
-.tvo{ 
-   color: red;
-   font-size: 160%;
-}
-.botn{
-  color: red;
+.text { 
   text-align: center;
-  padding: 50px; 
+  padding: 20px;
+  margin: 20px;
+  font-size: 200%;
 }
-.listi {
-  text-align: center;
-  padding: 30px;
-  margin: 40px;
+i{
+  color: #9b9b9b;
+}
+.imgCol{
+  grid-column-gap: 10px;
 }
