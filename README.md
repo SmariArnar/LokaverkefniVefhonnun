@@ -1,1 +1,2 @@
-# LokaverkefniVefhonnun
+# Lokaverkefni Vefhönnun
+Mikael, Huginn, Smári
