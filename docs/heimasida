@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"> 
+    <title>Verkefni 4.1 bakgrunnar</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles3.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="headfootcont II">
+      <a href="#top">
+        <img src="cs.svg" height="auto" width="125px" href="top"></img>
+      </a>
+        <div class="nav-links">
+          <a class="box" href="#tegund">Tegund</a>
+          <a class="box" href="#utgafa">Útgáfa</a>
+          <a class="box" href="#framleid">Framleiðendur</a>
+          <a class="box" href="#notendur">Notendur</a>
+          <a class="box" href="#þroun">Þróun</a>
+          <a class="box" href="#framtid">Framtíð</a>        
+          </div>
+      </div>
+    </header>
+    <div class="barrier"></div>
+    <section class="container">
+      <div class="listi">
+      <h1>Counter strike</h1>
+        <a href="#tegund">I. Hvaða tegund af tölvuleik/búnað er um að ræða</a><br>
+        <a href="#utgafa">II. Hvenær var hann búinn til</a><br>
+        <a href="#framleid">III. Hverjir eru höfundar og framleiðendur</a><br>
+        <a href="#notendur">Iv. Hverjir eru notendur leiksins/búnaðarins (aldur – kyn - áhugamál)</a><br>
+        <a href="#þroun">V. Hvernig hefur leikurinn/búnaðurinn þróast</a><br>
+        <a href="#framtid">VI. Hverjar eru framtíðarhorfur leiksins eða hvenær var hætt að framleiða leikinn. 
+        .Hverjar eru framtíðarhorfur búnaðarins eða hvenær var hætt að framleiða hann.</a><br>
+      </div>
+
+      <div class="barrier" id="tegund"></div>
+      <div>
+        <h1>Hvaða tegund af tölvuleik erum um að ræða.</h1>
+        <hr>
+        <p>Counter-Strike (CS) eru seríur af fyrstu persónu skotleikjum, þar sem lið terrorista og and-terroristar berjast um, að reyna að sprengja sprengju á svæðum eða og reyna að stoppa hana. Seríurnar byrjuðu 1999 á Windows með fyrstu gerðinni af Counter-Strike. Hann var upprunalega gefin út sem breyting á tölvuleiknum half-life og hannaður af Minh LE og Jess Cliffe.</p>
+        <p>CSGO er fyrstu persónu skotleikur sem snýst um að annaðhvort planta sprengju og láta hana springa eða slökkva á sprengjuni, það fer allt eftir í hvaða liði þú ert. Einnig er einfaldlega hægt bara að drepa alla í hinu liðinu. Það eru tvö lið: hryðjuverkamenn og gagnhryðjuverkamenn, eða á ensku: "terrorists" og "counter-terrorists". Einnig eru til fleiri leikir sem tengjast því t.d. að drepa sem flesta í hinu liðinu o.s.fv.</p>
+        <p>Í hefðbundnum leik eru 30 umferðir, liðin tvö terroristar og and-terr
+        oristar keppast um að vinna 16 umferðir á undan hinum. Liðin tvö geta unnið umferðina með því að drepa alla í hinu liðinu, terroristar geta unnið með því að að sprengja sprengju á sprengjusvæðinu en and-terroistar með því að stoppa sprengjuna.</p>
+        <iframe src="https://www.youtube.com/embed/edYCtaNueQY" width="100%" height="540" frameborder="0"></iframe>
+        <div class="barrier" id="utgafa"></div>
+        <h1>Hvenær var hann búinn til</h1>
+        <hr>
+        <p>Seríurnar byrjuðu 1999 á Windows með fyrstu gerðinni af Counter-Strike. Hann var upprunalega gefin út sem breyting á tölvuleiknum half-life</p>
+        <p>Counter-Strike Global Offensive eða CSGO eins og hann er oft kallaður kom út 21. ágúst 2012. Leikurinn er sá fjórði í Counter-Strike leikja seríunum. Hann var búin til af Valve og Hidden Path Entertainment. Það var byrjað að búa hann til í mars 2010 og tók nánast 2 og hálft ár að búa hann til en hann var kynntur 12 ágúst 2011. </p>
+        <p>Counter-Strike leikirnir urðu first til árið 2000 sem "mod" fyrir eina leikinn sem Valve átti á þeim tíma "Half-Life". Valve leist mjög vel á þetta og bjuggu til leik sem einfaldlega hét Counter-Strike. Leikurinn sló í gegn og fjórum árum seinna bjuggu þeir til Counter-Strike Condition Zero og Counter-Strike Source. 8 árum seinna og við fengum CSGO.</p>
+        <div class="barrier" id="framleid"></div>
+        <h1>Hverjir eru höfundar og framleiðendur</h1>
+        <hr>
+        <p>Valve var stofnað 1996 af Gabe Newell og Mike Harrington og er eitt frægasta tölvuleikja fyrirtæki í heimi. Þeir hafa framleitt mikið af frægum tölvuleikjum en síðasti leikur sem þeir bjuggu til er "Dota 2" árið 2013. Þeir eru samt mjög þekktir fyrir að vera latir og ekki gera neitt mjög lengi og hafa aldrei búið til leik sem er númer 3(nema "CS"). Til er kenning sem fjallar um að þeir geri það aldrei vegna þess að Gabe Newell vann hjá Microsoft og var þar þegar þeir gáfu út tvö stýrikerfi og var rekinn rétt fyrir þriðja.</p>
+        <img src="gabe.jpg" styles="bg" class="mynd">
+
+        <div class="barrier" id="notendur"></div>
+        <h1>Hverjur eru notendur tölvuleiksins(aldur - kyn - áhugamál</h1>
+        <hr>
+        <p>Fjórða og nýjasta útgáfa counter strike, counter strike global offfensive hefur náð gríðarlegum vinsældum eða u.þ.b 25 milljón manns spila hann reglulega.</p>
+        <p>Ekki er til mikið af tölum um notendur csgo, en eins og á flestum tölvuleikjum nú til dag eru flestir notendur ungir karlmenn, ekki er mikið af konum og eldra fólki en þó eitthvað.</p>
+        <div class="barrier" id="þroun"></div>
+        <h1>Hvernig hefur leikurinn þróast</h1>
+        <hr>
+        <p>Frá opinberri útgáfu Global Offensive hefur Valve haldið áfram að uppfæra leikinn á marga vegu, þar á meðal að kynna nýja kort og vopn og gefa út jafnvægisbreytingar. Eitt af helstu viðbótunum við leikinn eftir útgáfu var "Arms Deal" uppfærslan. Sleppt 13. ágúst 2013, bætt við snyrtiflöppum, kallaðir sem skinn. Þessir hlutir voru síðan unnar með því að unboxing tilvikum nota lykla í leiknum, þar af voru aðeins aðgengilegar í gegnum microtransactions í leiknum.  Þeir geta einnig verið fengnar á svipaðan hátt við liðin í Team Fortress 2 og Dota 2 í þeim skilningi að þau eru sleppt af handahófi.  Global Offensive hefur stuðning frá Steam Workshop, sem gerir notendum kleift að hlaða upp notendahópnum, svo sem kortum, vopnsmiðlum og sérsniðnum spilunarviðburðum. Popular skinn er bætt við leikinn og hægt að nálgast með því að unboxing þá úr leikjum í leiknum. [26] Höfundar skinnanna eru greiddar þegar hlutur þeirra er bætt við mál. Þessi skinn hjálpaði mynda raunverulegur hagkerfi fyrir Global Offensive.</p><p>
+
+Atburðir sem kallast "Aðgerðir" eru stundum haldnar og eru kauphæfar stækkunarpakkningar í formi "aðgerðapassar". Þessar framfarir veita aðgang að aðgerðarmörkum sem eru dreift yfir mismunandi leikhami, svo sem Arms Race og Deathmatch, eða í aðgerðarsértækum leikhamum, fyrst séð í Operation Hydra, út í maí 2017.  Að klára þessar áskoranir verðlaun leikmaðurinn með XP og getu til að uppfæra aðgerðina "mynt". Kortin í rekstri eru gerðar í samfélaginu, sem þýðir að sum tekjur sem eru gerðar fara til kortahönnuða.</p>
+<p>
+Uppfærsla í október 2014 bætti við "tónlistarpakkar", sem skipta um sjálfgefið tónlist í tónlist með tónlist frá tónlistarlistamönnum sem eru á vegum Valve. Ef leikmaður með tónlistarbúnað búinn verður verðmætasta leikmaður umferðarinnar mun tónlist þeirra leika fyrir aðra í lok umferðarinnar. Það er eiginleiki sem gerir kleift að lána pökkum og hægt er að selja pökkum og skipta um bandalagið. 
+</p>
+<p>
+Í apríl 2016 var Prime Matchmaking bætt við leikinn. Til að taka þátt í þessari stillingu þurfti notandinn að hafa símanúmer tengt reikningi sínum og staðfest. Það var kynnt í tilraun til að koma í veg fyrir að lögmætir leikmenn leika með svikari eða hæfileikaríkum leikmönnum að spila á öðrum, lægri reikningum, sem eru í sambandi við "smurfing".  Í október 2016 voru neysluvörur sem heitir graffiti bætt við leikinn. Þessir hlutir skipta um eiginleika sem er til staðar í fyrri endurtekningum í röðinni sem kallast sprays. Áður gætu leikmenn sérsniðið sprays þeirra. Graffiti hugmyndir geta verið hlaðið upp á Steam Workshop á svipaðan hátt og byssur skinn og leikmenn geta keypt og verslað núverandi graffiti í leik. [16] Einn mánuð síðar voru hanskarskinn bætt við. 
+</p>
+<p>
+Í október 2017 sáu endurhönnun Dust II, einn af helgimynda kortunum í leiknum. Sett í "beta depot" í byrjun október, það var gefið út til að prófa nokkrum dögum síðar,  Í nóvember var tilkynnt um uppfærslu á samkeppnishæf samsvörun. Kölluð "Trust Factor", átti að þýða að "Trust Factor" leikmaðurinn væri reiknaður með því að nota bæði leikanir í leiknum og Steam-wide. Þættir eins og spilunartíma á Global Offensive, þegar notandi hefur verið tilkynnt um að svindla, leika á öðrum Steam-leikjum og öðrum hegðunum sem falið er af Valve, eru teknar til greina þegar notandi er "Trust Factor" þróað. Þetta var gert í tilraun til að láta samfélagið bregðast saman aftur í samsvörun, þar sem Prime Matchmaking lék aðal- og non-Prime leikmenn frá hvor öðrum. Valve mun ekki láta notendur skoða "Trust Factor" eða sýna öllum þeim þáttum sem ákvarða "traust" mannsins. 
+</p>
+        <div class="barrier" id="framtid"></div>
+        <h1> Hverjar eru framtíðarhorfur.</h1>
+        <hr>
+        <p>Counter Strike á líklega bara eftir að stækka en fremur. Hann er núþegar 1 af fjórum stærstu tölvuleikjunum. League of legends, Dota 2, Hertstone og counter strike</p>
+        <p>Það er alltaf eitthvað nýtt að bætast við í leikinn og ekki er visst um hvað framhaldið verður en Valve er alltaf að bæta nýjum pökkum við og uppfæra leikinn.</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="headfootcont">
+        <p>&copy; 2017 Mikael, Smári, Huginn</p>
+      </div>
+    </footer>
+  </body>
+</html>
+''' css
+linkur á mynd https://images.complex.com/complex/image/upload/c_limit,w_680/fl_lossy,pg_1,q_auto/yllngp8so2j85nlrgg2p.jpg
+-body{
+ -  font-family: Arial, helvetica, sans-serif;
+ -  background-image: url("background.jpg");
+ -  background-size: 100%;
+ -  line-height: 1.5em;
+ -  margin: 0 auto;
+ -}
+ -.container {
+ -  padding: 2em;
+ -  max-width: 60em;
+ -  margin: 0 auto;
+ -  background-color: white;
+ -}
+ -header{
+ -  background-color: #666666;
+ -  padding: 1em;
+ -  box-shadow: 0px 7px 20px black;
+ -  position: fixed;
+ -  width: 100%;
+ -}
+ -footer{
+ -  box-shadow: 0px -7px 20px black;
+ -  background-color: #666666;
+ -  padding: 1em;
+ -  height: 5em;
+ -  display: grid;
+ -  align-items: center;
+ -}
+ -.headfootcont{
+ -  max-width: 60em;
+ -  margin: 0 auto;
+ -}
+ -.barrier{
+ -  height: 5em;
+ -}
+ -.nav-links{
+ -  padding: 1em 0em 1em 0em;
+ -  margin: 0;
+ -  text-align: right;
+ -  font-family: 'Cabin', sans-serif;
+ -}
+ -h1{
+ -  font-family: 'Cabin', sans-serif;
+ -}
+ -.III {
+ -  display: grid;
+ -  grid-template-columns: 1fr 1fr 1fr;
+ -}
+ -.II {
+ -  display: grid;
+ -  grid-template-columns: 1fr 1fr;
+ -}
+ -a {
+ -  font-size: 1.2em;
+ -  text-decoration: none;
+ -  color: white; 
+ -}
+ -a:hover {
+ -  text-decoration: none;
+ -  color: #969696;
+ -}
+ -.text { 
+ -  text-align: center;
+ -  padding: 20px;
+ -  margin: 20px;
+ -  font-size: 200%;
+ -}
+ -i{
+ -  color: #9b9b9b;
+ -}
+ -.imgCol{
+ -  grid-column-gap: 10px;
+ -}
+ '''
