@@ -96,6 +96,10 @@ Uppfærsla í október 2014 bætti við "tónlistarpakkar", sem skipta um sjálf
 </html>
 ''' css
 linkur á mynd https://images.complex.com/complex/image/upload/c_limit,w_680/fl_lossy,pg_1,q_auto/yllngp8so2j85nlrgg2p.jpg
+Bakgrunnur: https://steamuserimages-a.akamaihd.net/ugc/549808581748212617/74E40FB983EAD42136CE7487D8CA2AC99C2CB9D6/
+Önnur bakgrunnsmynd: http://fungyung.com/data/out/27/62862978-counter-strike-global-offensive-wallpapers.jpg
+Mynd efst á síðu: https://cdn.worldvectorlogo.com/logos/counter-strike-global-offensive-2.svg
+Download og setja inn í folderinn ykkar
 -body{
  -  font-family: Arial, helvetica, sans-serif;
  -  background-image: url("background.jpg");
