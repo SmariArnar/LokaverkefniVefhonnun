@@ -1,6 +1,6 @@
 body{
   font-family: Arial, helvetica, sans-serif;
-  background-image: url("background.jpg");
+  background-image: url("Wallpaper.jpg");
   background-size: 100%;
   line-height: 1.5em;
   margin: 0 auto;
@@ -20,7 +20,6 @@ footer{
   display: grid;
   align-items: center;
   box-shadow: 0 -15px #4f4947;
-  text-align: center;
 }
 header,
 footer{
@@ -55,6 +54,7 @@ h1{
 .contIMG{
   display: grid;
   grid-template-columns: 70% 30%;
+  grid-column-gap: 10px;
 }
 i{
   font-family: 'Cabin', sans-serif;
@@ -113,7 +113,22 @@ footer hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #000000;
+  border-top: 1px solid black;
   margin: 1em 0;
   padding: 0; 
+}
+.iblock{
+  padding: .5em;
+  color: lightgray;
+  background-color: #141414;
+  border-radius: 5px;
+}
+.cent{
+  text-align: center;
+}
+.title{
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white; 
 }
